@@ -1,5 +1,3 @@
-throw new Error('FOO')
-
 export function getRandom(min: number, max: number) {
   min = Math.ceil(min);
   max = Math.floor(max);
