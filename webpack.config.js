@@ -15,6 +15,9 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    extensions: ['.js', '.ts'],
+  },
   mode: 'development',
   devServer: {
     static: {
