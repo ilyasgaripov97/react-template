@@ -1,0 +1,29 @@
+{
+  "parser": "@babel/eslint-parser",
+  "plugins": ["import", "react"],
+  "rules": {
+    "no-unused-vars": "error",
+    "no-console": "error",
+    "quotes": ["error", "double"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "react/jsx-pascal-case": ["error"],
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-props-no-multi-spaces": ["error"],
+    "react/jsx-curly-spacing": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "react/destructuring-assignment": ["error", "always"],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-first-prop-new-line": ["error", "multiline"],
+    "react/jsx-max-props-per-line": ["error"],
+    "prefer-const": ["error"],
+    "indent": ["error", 2],
+    "max-len": ["error", 80],
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["error", "always"],
+    "import/order": ["error", {"newlines-between": "always"}],
+    "import/first": ["error"],
+    "import/exports-last": ["error"],
+    "import/newline-after-import": ["error", {"count": 2}]
+  }
+}
