@@ -10,6 +10,7 @@
     "react/jsx-indent": ["error", 2],
     "react/jsx-props-no-multi-spaces": ["error"],
     "react/jsx-curly-spacing": ["error", "always"],
+    "react/jsx-closing-bracket-location": [1, "line-aligned"],
     "object-curly-spacing": ["error", "always"],
     "react/destructuring-assignment": ["error", "always"],
     "react/jsx-uses-react": "error",
